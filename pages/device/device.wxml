@@ -1,0 +1,39 @@
+<view class="container">
+  <fui-card style="width: 100%;" src="{{src}}" title="设备名称">
+    <view style="padding: 10px;" class="fui-card__content">
+      <view style="font-size:x-small;color:gray;word-break:break-all">设备ID：{{connectedDeviceId}}</view>
+      <view style="font-size:x-small;color:gray">状态：{{connected?"已连接":"已断开"}}</view>
+    </view>
+  </fui-card>
+
+  <fui-row gutter="20" margin-bottom="24rpx" style="margin:10px;width: 100%;display: flex;justify-content: space-evenly;">
+    <fui-col span="{{8}}" style="background-color: aqua;">
+      <fui-card style="width: 100%;" src="{{src}}" title="设备名称">
+        <view style="padding: 10px;" class="fui-card__content">
+          <view style="font-size:x-small;color:gray;word-break:break-all">设备ID：{{connectedDeviceId}}</view>
+          <view style="font-size:x-small;color:gray">状态：{{connected?"已连接":"已断开"}}</view>
+        </view>
+      </fui-card>
+    </fui-col>
+    <fui-col span="{{8}}">
+      <fui-card style="width: 100%;" src="{{src}}" title="设备名称">
+        <view style="padding: 10px;" class="fui-card__content">
+          <view style="font-size:x-small;color:gray;word-break:break-all">设备ID：{{connectedDeviceId}}</view>
+          <view style="font-size:x-small;color:gray">状态：{{connected?"已连接":"已断开"}}</view>
+        </view>
+      </fui-card>
+    </fui-col>
+    <fui-col span="{{8}}">
+      <fui-card style="width: 100%;" src="{{src}}" title="设备名称">
+        <view style="padding: 10px;" class="fui-card__content">
+          <view style="font-size:x-small;color:gray;word-break:break-all">设备ID：{{connectedDeviceId}}</view>
+          <view style="font-size:x-small;color:gray">状态：{{connected?"已连接":"已断开"}}</view>
+        </view>
+      </fui-card>
+    </fui-col>
+  </fui-row>
+
+
+
+
+</view>

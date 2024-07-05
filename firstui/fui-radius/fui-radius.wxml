@@ -1,0 +1,17 @@
+<view class="fui-radius__wrap {{full?'fui-radius__full':''}} {{showBorder?'fui-radius__border':''}} {{showBorder && !isNvue && !full?'fui-radius__border-radius':''}}" style="margin:{{margin}};background:{{background}};border-radius:{{radius}};box-shadow:{{shadow}}" bindtap="handleClick">
+  <view class="fui-radius__header {{headerLine?'fui-radius__header-line':''}}" wx:if="{{tag || title || src}}" style="border-top-left-radius:{{full?0:radius}};border-top-right-radius:{{full?0:radius}};padding:{{padding}}">
+    <view class="fui-radius__header-left">
+      <image src="{{src}}" class="fui-radius__header-thumb" mode="widthFix" wx:if="{{src}}" style="height:{{height}}rpx;width:{{width}}rpx;border-radius:{{imageRadius}}"></image>
+      <text class="fui-radius__header-title" style="font-size:{{size}}rpx;color:{{color}}" wx:if="{{title}}">{{title}}</text>
+    </view>
+    <view class="fui-radius__header-right" wx:if="{{tag}}">
+      <text style="font-size:{{tagSize}}rpx;color:{{tagColor}}">{{tag}}</text>
+    </view>
+  </view>
+  <view class="fui-radius__body {{footerLine?'fui-radius__header-line':''}}">
+    <slot></slot>
+  </view>
+  <view class="fui-radius__footer" style="border-bottom-left-radius:{{full?0:radius}};border-bottom-right-radius:{{full?0:radius}}">
+    <slot name="footer"></slot>
+  </view>
+</view>
