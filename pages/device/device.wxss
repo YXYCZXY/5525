@@ -17,6 +17,11 @@ page {
   border: 3px solid lightgray;
   border-radius: 6px;
 }
+.fui-card__content{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
 .button {
   position: fixed;
   width: 690rpx;

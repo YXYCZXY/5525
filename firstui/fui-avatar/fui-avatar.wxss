@@ -9,6 +9,10 @@
 .fui-avatar__block {
   display: flex;
 }
+.radious-image{
+  width: 100px!important;
+  height: 100px!important;
+}
 
 .fui-avatar__inline {
   display: inline-flex;

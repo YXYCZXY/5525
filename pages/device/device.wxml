@@ -8,9 +8,9 @@
 
   <fui-row gutter="20" margin-bottom="24rpx" style="margin:10px;width: 100%;display: flex;justify-content: space-evenly;">
     <fui-col span="{{8}}" style="background-color: aqua;">
-      <fui-radius-image style="width: 100%;" src="{{src}}" title="设备名称">
+      <fui-radius-image style="width: 100%;" src="{{src}}" title="第一张专辑">
         <view style="padding: 10px;" class="fui-card__content">
-          <fui-avatar src="https://p3-passport.byteacctimg.com/img/user-avatar/feaa47cf782b169f8a57718a0f8a8add~110x110.awebp"></fui-avatar>
+          <fui-avatar  width="200" src="https://6d61-maydaysync-2gaijzhh7553fabf-1327815928.tcb.qcloud.la/maydayimgs/images/Album1.png?sign=9214060ed56c2113957d7ffbfb01edee&t=1720434939"></fui-avatar>
         </view>
       </fui-radius-image>
     </fui-col>
